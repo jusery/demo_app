@@ -1,6 +1,8 @@
+
+
 source 'http://rubygems.org'
 
-ruby '1.9.2' 
+ruby '1.9.2'
 
 gem 'rails', '3.1.0'
 
@@ -8,9 +10,8 @@ gem 'rails', '3.1.0'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 group :development do
-gem 'sqlite3'
+  gem 'sqlite3'
 end
-
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -21,8 +22,8 @@ group :assets do
 end
 
 group :production do
-gem 'pg'
-gem 'rails_12factor'
+  gem 'pg'
+  gem 'rails_12factor'
 end
 
 gem 'jquery-rails'
@@ -40,3 +41,5 @@ group :test do
   # Pretty printed test output
   gem 'turn', :require => false
 end
+
+
